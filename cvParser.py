@@ -1,6 +1,6 @@
 from groq import Groq
 import streamlit as st
-groq_api_key ="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"
+groq_api_key =st.secrets.API_key
 
 
 def ats_extractor(resume_data, jobdescription):
